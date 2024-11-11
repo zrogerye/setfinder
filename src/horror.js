@@ -25,6 +25,7 @@ const Horror = () => {
                     {/* </Link> */}
 
                 </div>
+                <button type="button" className="cart-button">Cart</button>
                 <button className="profile-button">Profile</button>
             </header>
 

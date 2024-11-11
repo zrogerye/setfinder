@@ -31,6 +31,9 @@ import item16 from './Images/item16.jpg';
 // Continue importing other item images as needed up to item20.jpg
 
 const Landing = () => {
+
+    //go to top of the screen
+    window.scrollTo(0, 0);
     
     return (
         <div className="landing-container">
@@ -49,11 +52,15 @@ const Landing = () => {
                         <Link to="/search-results">&#128269;</Link>
                     </button> */}
 
+                        
+
                         <Link to="/search-results">
                             <button type="button" className="search-bar-button">&#128269;</button>
                         </Link>
 
                 </div>
+
+                <button type="button" className="cart-button">Cart</button>
                 <button className="profile-button">Profile</button>
             </header>
 
@@ -79,9 +86,10 @@ const Landing = () => {
                 <div className="horizontal-scroll-container">
                     <div className="product-card">
                         <img src={product1} alt="Product 1" />
-                        <h3>Hôtel Sidi Driss, Tunisia</h3>
+                        <h3>Hôtel Sidi Driss<Link to="/product-hsdt">,</Link> Tunisia</h3>
                         <p>$750/day</p>
                     </div>
+
                     {/* Additional product cards */}
                     <div className="product-card">
                         <img src={product2} alt="Product 2" />

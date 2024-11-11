@@ -63,17 +63,18 @@ body, html {
     background-color: #0056b3;
 }
 
-.profile-button {
+.profile-button, .cart-button {
     padding: 10px 15px;
     border: 1px solid #ddd;
     border-radius: 4px;
     background-color: #ffffff;
     cursor: pointer;
     transition: background-color 0.2s;
+    width: 100px;
 }
 
-.profile-button:hover {
-    background-color: #e0e0e0;
+.profile-button:hover, .cart-button:hover {
+    background-color: #ffffff;
 }
 
 /* Category Filter Bar */
@@ -139,6 +140,7 @@ body, html {
     background: #fff;
     transition: transform 0.2s, box-shadow 0.2s;
     flex-shrink: 0; /* Prevent shrinking */
+    text-decoration: none;
 }
 
 .product-card:hover {
