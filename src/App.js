@@ -14,6 +14,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Landing from './landing.js';
 import SearchResults from './searchResults.js';
 import Beach from './beach.js';
+import Horror from './horror.js';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/search-results" element={<SearchResults />} />
         <Route path="/beach" element={<Beach />} />
+        <Route path="/horror" element={<Horror />} />
       </Routes>
     </Router>
   );

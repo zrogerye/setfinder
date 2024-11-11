@@ -124,12 +124,16 @@ const Landing = () => {
             <section className="section categories">
                 <h2>Search by Genre</h2>
                 <div className="category-grid">
-                    <div className="category-item">Romance</div>
-                    <div className="category-item">Horror</div>
-                    <div className="category-item">Action</div>
-                    <div className="category-item">Western</div>
-                    <div className="category-item">War</div>
-                    <div className="category-item">Adventure</div>
+                    <button className="category-item">Romance</button>
+
+                    <Link to="/horror">
+                        <button className="category-item">Horror</button>
+                    </Link>
+
+                    <button className="category-item">Action</button>
+                    <button className="category-item">Western</button>
+                    <button className="category-item">Adventure</button>
+                    <button className="category-item">Sci-fi</button>
                 </div>
             </section>
 

@@ -6,7 +6,11 @@ import item2 from './Images/item2.jpg';
 import item3 from './Images/item3.jpg';
 // Continue adding images as necessary
 
-const Beach = () => {
+const Horror = () => {
+
+    //go to top of the screen
+    window.scrollTo(0, 0);
+
     return (
         <div className="search-results-container">
 
@@ -24,7 +28,7 @@ const Beach = () => {
                 <button className="profile-button">Profile</button>
             </header>
 
-            <h4 className='searching-for-text'>Searching for Beach</h4>
+            <h4 className='searching-for-text'>Searching for Horror</h4>
 
             <div className="grid-container">
                 {/* Manually creating grid items - similar to the landing page */}
@@ -114,4 +118,4 @@ const Beach = () => {
     );
 };
 
-export default Beach;
+export default Horror;
