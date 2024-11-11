@@ -13,6 +13,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Landing from './landing.js';
 import SearchResults from './searchResults.js';
+import Beach from './beach.js';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/search-results" element={<SearchResults />} />
+        <Route path="/beach" element={<Beach />} />
       </Routes>
     </Router>
   );

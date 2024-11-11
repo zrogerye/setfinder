@@ -49,9 +49,9 @@ const Landing = () => {
                         <Link to="/search-results">&#128269;</Link>
                     </button> */}
 
-                    <button type="button" className="search-bar-button">
-                        <Link to="/search-results">&#128269;</Link>
-                    </button>
+                        <Link to="/search-results">
+                            <button type="button" className="search-bar-button">&#128269;</button>
+                        </Link>
 
                 </div>
                 <button className="profile-button">Profile</button>
@@ -66,7 +66,11 @@ const Landing = () => {
                 <button className="filter-button">Asian</button>
                 <button className="filter-button">European</button>
                 <button className="filter-button">Futuristic</button>
-                <button className="filter-button">Beach</button>
+
+                <Link to="/beach">
+                    <button className="filter-button">Beach</button>
+                </Link>
+
             </div>
 
             {/* Main Content Sections */}
