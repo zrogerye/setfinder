@@ -67,7 +67,7 @@ body, html {
     padding: 10px 15px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    background-color: #f3f3f3;
+    background-color: #ffffff;
     cursor: pointer;
     transition: background-color 0.2s;
 }
@@ -221,4 +221,8 @@ body, html {
     height: 250px; /* You can adjust the height as needed */
     object-fit: cover; /* Ensures images are resized to fit the specified dimensions while maintaining aspect ratio */
     border-radius: 4px; /* Optional: adds rounded corners to images */
+}
+
+.link-button{
+    color: blue;
 }

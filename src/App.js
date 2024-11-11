@@ -1,12 +1,27 @@
+// import React from 'react';
+// import Landing from './landing.js'; // Ensure the import matches the file name exactly
+
+// function App() {
+//   return (
+//     <Landing />
+//   );
+// }
+
+// export default App;
+
 import React from 'react';
-import './App.css';
-import Landing from './landing'; // Import the Landing component
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Landing from './landing.js';
+import SearchResults from './searchResults.js';
 
 function App() {
   return (
-    <div className="App">
-      <Landing /> {/* Replace the default content with Landing */}
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/search-results" element={<SearchResults />} />
+      </Routes>
+    </Router>
   );
 }
 

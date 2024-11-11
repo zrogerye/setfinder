@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './landing.css';
+
 import product1 from './Images/product1.jpg';
 import product2 from './Images/product2.jpg';
 import product3 from './Images/product3.jpg';
@@ -29,6 +31,7 @@ import item16 from './Images/item16.jpg';
 // Continue importing other item images as needed up to item20.jpg
 
 const Landing = () => {
+    
     return (
         <div className="landing-container">
             {/* Header / Navigation Bar */}
@@ -38,7 +41,18 @@ const Landing = () => {
                 </div>
                 <div className="search-bar-container">
                     <input type="text" placeholder="Search" className="search-bar-input" />
-                    <button type="submit" className="search-bar-button">&#128269;</button> {/* Unicode for search icon */}
+                    {/* <Link to="/searchResults"> */}
+                        {/* <button type="button" className="search-bar-button">&#128269;</button> */}
+                    {/* </Link> */}
+                    {/* <Link to="/search-results">&#128269;</Link> */}
+                    {/* <button className='link-button'>
+                        <Link to="/search-results">&#128269;</Link>
+                    </button> */}
+
+                    <button type="button" className="search-bar-button">
+                        <Link to="/search-results">&#128269;</Link>
+                    </button>
+
                 </div>
                 <button className="profile-button">Profile</button>
             </header>
@@ -57,7 +71,7 @@ const Landing = () => {
 
             {/* Main Content Sections */}
             <section className="section featured-products">
-                <h2>Featured Products</h2>
+                <h2>Featured Locations</h2>
                 <div className="horizontal-scroll-container">
                     <div className="product-card">
                         <img src={product1} alt="Product 1" />
@@ -116,7 +130,7 @@ const Landing = () => {
             </section>
 
             <section className="section grid-section">
-                <h2>Explore More Products</h2>
+                <h2>Explore More Locations</h2>
                 <div className="grid-container">
                     {/* Manually creating grid items */}
                     <div className="grid-item">
