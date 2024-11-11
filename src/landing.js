@@ -216,11 +216,14 @@ const Landing = () => {
                         <h3>1529 Mount Larson Rd, USA</h3>
                         <p>Price: $500</p>
                     </div>
+       
                     <div className="grid-item">
                         <img src={item14} alt="Item 14" />
-                        <h3>12842 Hughes Park Rd, USA</h3>
+                        <h3>12842 Hughes Park Rd<Link to="/product-h">,</Link> USA</h3>
                         <p>Price: $500</p>
                     </div>
+
+
                     <div className="grid-item">
                         <img src={item15} alt="Item 15" />
                         <h3>Mozart's Coffee, USA</h3>

@@ -16,6 +16,7 @@ import SearchResults from './searchResults.js';
 import Beach from './beach.js';
 import Horror from './horror.js';
 import ProductHSDT from './productHSDT.js';
+import ProductH from './prodH.js';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/beach" element={<Beach />} />
         <Route path="/horror" element={<Horror />} />
         <Route path="/product-hsdt" element={<ProductHSDT />} />
+        <Route path="/product-h" element={<ProductH />} />
       </Routes>
     </Router>
   );
