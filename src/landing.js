@@ -98,7 +98,7 @@ const Landing = () => {
                     </div>
                     <div className="product-card">
                         <img src={product3} alt="Product 3" />
-                        <h3>Eky Cathedral, England</h3>
+                        <h3>Ely Cathedral, England</h3>
                         <p>$1,500/day</p>
                     </div>
                     <div className="product-card">
@@ -152,87 +152,87 @@ const Landing = () => {
                     <div className="grid-item">
                         <img src={item1} alt="Item 1" />
                         <h3>Triangle T Ranch, USA</h3>
-                        <p>Price: $100</p>
+                        <p>Price: $1,300/day</p>
                     </div>
                     <div className="grid-item">
                         <img src={item2} alt="Item 2" />
                         <h3>Roosevelt Hotel, USA</h3>
-                        <p>Price: $200</p>
+                        <p>Price: $2,000/day</p>
                     </div>
                     <div className="grid-item">
                         <img src={item3} alt="Item 3" />
                         <h3>Taos Ski Valley, USA</h3>
-                        <p>Price: $300</p>
+                        <p>Price: $2,000/day</p>
                     </div>
                     {/* Continue creating grid items up to item 20 */}
                     {/* Example */}
                     <div className="grid-item">
                         <img src={item4} alt="Item 4" />
                         <h3>Mont Saint-Michel, France</h3>
-                        <p>Price: $400</p>
+                        <p>Price: $4,000/day</p>
                     </div>
                     <div className="grid-item">
                         <img src={item5} alt="Item 5" />
                         <h3>Palace of Versailles</h3>
-                        <p>Price: $500</p>
+                        <p>Price: $5,000/day</p>
                     </div>
                     <div className="grid-item">
                         <img src={item6} alt="Item 6" />
                         <h3>Louvre Museum</h3>
-                        <p>Price: $500</p>
+                        <p>Price: $5,500/day</p>
                     </div>
                     <div className="grid-item">
                         <img src={item7} alt="Item 7" />
                         <h3>Sydney Harbour Neighborhood, USA</h3>
-                        <p>Price: $500</p>
+                        <p>Price: $750/day</p>
                     </div>
                     <div className="grid-item">
                         <img src={item8} alt="Item 8" />
                         <h3>Flushing Main Street, USA</h3>
-                        <p>Price: $500</p>
+                        <p>Price: $2,000/day</p>
                     </div>
                     <div className="grid-item">
                         <img src={item9} alt="Item 9" />
                         <h3>Bonaventure Cemetery, USA</h3>
-                        <p>Price: $500</p>
+                        <p>Price: $1,000/day</p>
                     </div>
                     <div className="grid-item">
                         <img src={item10} alt="Item 10" />
                         <h3>Dock Street Theatre, USA</h3>
-                        <p>Price: $500</p>
+                        <p>Price: $2,500/day</p>
                     </div>
                     <div className="grid-item">
                         <img src={item11} alt="Item 11" />
                         <h3>The Driskill, USA</h3>
-                        <p>Price: $500</p>
+                        <p>Price: $3,500/day</p>
                     </div>
                     <div className="grid-item">
                         <img src={item12} alt="Item 12" />
                         <h3>Eastern State Penitentiary, USA</h3>
-                        <p>Price: $500</p>
+                        <p>Price: $2,500/day</p>
                     </div>
                     <div className="grid-item">
                         <img src={item13} alt="Item 13" />
                         <h3>1529 Mount Larson Rd, USA</h3>
-                        <p>Price: $500</p>
+                        <p>Price: $500/day</p>
                     </div>
        
                     <div className="grid-item">
                         <img src={item14} alt="Item 14" />
                         <h3>12842 Hughes Park Rd<Link to="/product-h">,</Link> USA</h3>
-                        <p>Price: $500</p>
+                        <p>Price: $700/day</p>
                     </div>
 
 
                     <div className="grid-item">
                         <img src={item15} alt="Item 15" />
                         <h3>Mozart's Coffee, USA</h3>
-                        <p>Price: $500</p>
+                        <p>Price: $1,000/day</p>
                     </div>
                     <div className="grid-item">
                         <img src={item16} alt="Item 16" />
                         <h3>200 Mercer St Unit PH4B, USA</h3>
-                        <p>Price: $500</p>
+                        <p>Price: $2,500/day</p>
                     </div>
                 </div>
             </section>

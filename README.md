@@ -1,7 +1,4 @@
-TODO LIST:
 
-product listing page (TODO)
-search result page (main page DONE)
-filter page (2), just make one generic and copy for another, could be same as search result
-    - going to make one for Beach (DONE)
-    - going to make one for Horror (for genre) (DONE)
+RTF303 Intro to Media Project
+
+SetFinder is an online marketplace platform designed to connect filmmakers and creatives with unique, privately-owned filming locations. The platform offers a curated selection of featured locations, ranging from historical landmarks and modern architectural spaces to off-grid retreats, all available for short-term rental. Users can explore detailed listings, browse by genre or category, and leverage search functionality for tailored results. SetFinder aims to simplify location scouting and booking by providing comprehensive information, competitive pricing, and seamless transactions, making it the go-to resource for production teams and location managers seeking distinctive shooting venues.

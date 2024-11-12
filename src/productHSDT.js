@@ -54,6 +54,7 @@ const ProductHSDT = () => {
         <div className="details-section">
           <h1 className="product-title">Hôtel Sidi Driss, Tunisia</h1>
           <p className="product-price">$1,200/day</p>
+          <p className="product-location">GXV8+4W4, Matmatat-Al-Qadimal, Tunisia</p>
           <p className="product-description">
           Hôtel Sidi Driss is a unique and historically significant site located in Matmata, Tunisia. Known for its distinct subterranean architecture, the hotel is built into the ground with rooms arranged around several open-air courtyards. This traditional Berber troglodyte dwelling gained international fame for its role as Luke Skywalker's childhood home on the desert planet of Tatooine in the original 1977 "Star Wars" film and later appeared in "Star Wars: Attack of the Clones." Visitors can explore the film sets, including recognizable props and decor, and immerse themselves in the otherworldly charm that blends Tunisia’s rich cultural heritage with a touch of cinematic history. Despite its fame, Hôtel Sidi Driss remains a functioning hotel, offering guests a rare chance to sleep in one of the original filming locations and experience the rustic yet captivating beauty of Matmata's desert landscape.
           </p>
